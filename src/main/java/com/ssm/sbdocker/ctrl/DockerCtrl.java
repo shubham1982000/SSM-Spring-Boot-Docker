@@ -13,7 +13,7 @@ public class DockerCtrl {
 
 	@GetMapping()
 	public ResponseEntity<String> testEndpoint() {
-		return ResponseEntity.ok("Hit Success...");
+		return ResponseEntity.ok("Spring-Boot-Docker Hit Success...");
 	}
 	
 	@PostMapping("/body")
